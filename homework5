@@ -1,0 +1,6 @@
+import colorama
+import inspect
+a = dir(colorama)
+b = inspect.ismodule(colorama)
+c = hasattr(colorama)
+print(a,b,c)
